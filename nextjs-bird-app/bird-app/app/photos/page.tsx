@@ -3,7 +3,7 @@ import PhotoCard from '../components/photo-card';
 
 export default function PhotoGrid() {
     const photos = getPhotos();
-    return <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
+    return <ul className="min-h-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
         {photos.map(photo => (
             <li key={photo.id}>
                 <PhotoCard {...photo}></PhotoCard>
