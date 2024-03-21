@@ -1,5 +1,4 @@
 .image {
     position: relative;
-    width: 30rem;
-    height: 20rem;
+    flex-grow: 1;
   }

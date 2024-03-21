@@ -19,7 +19,7 @@ export default function Hero(){
                 </p>
                 <div className="mt-8">
                     <Link href="/photos"
-                        className="inline-block w-full text-center text-lg font-medium text-violet-50 bg-gray-900 py-4 px-10 hover:bg-gray-800 hover:shadow-md md:w-48">View Photos</Link>
+                        className="inline-block w-full text-center text-lg font-medium text-white bg-slate-800 py-4 px-10 hover:bg-violet-100 hover:text-slate-800 hover:shadow-md md:w-48">View Photos</Link>
                 </div>
             </div>
         </div>

@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="text-gray-900">
+      <body className="text-slate-900">
         <Header />
         <Breadcrumbs />
           <main className="bg-yellow-50">{children}</main>
