@@ -21,10 +21,14 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  font-family: var(--font-main);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+h1, h2, h3, h4, h5, h6, .heading-font {
+  font-family: var(--font-heading);
 }
