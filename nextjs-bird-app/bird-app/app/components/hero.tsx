@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import heroImage from '@/app/assets/hero-image.jpg'
 export default function Hero(){
-    return <div className="relative flex flex-col items-center mx-auto mb-10 lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl">
+    return <div className="relative flex flex-col items-center mx-auto mb-48 lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl">
         <div className="w-full h-64 lg:w-1/2 lg:h-auto">
             <Image className="h-full w-full object-cover" src={heroImage} alt="Birds flying against a grey sky"/>
         </div>
