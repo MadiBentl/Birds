@@ -6,7 +6,6 @@ import Link from "next/link";
 export default function Breadcrumbs(){
     const slug = usePathname();
     const pathComponents = slug.split("/");
-    console.log(pathComponents)
     if (slug == '/') return;
     return <nav className="flex m-5 px-4 sm:px-6 md:px-8" aria-label="Breadcrumb">
     <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">

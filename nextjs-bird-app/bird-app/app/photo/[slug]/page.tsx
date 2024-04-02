@@ -2,9 +2,8 @@ import Image from 'next/image';
 import {getPhoto} from '@/lib/photos';
 import classes from './page.module.css';
 
-export default function BirdPhoto({params}) {
+export default function BirdPhoto({params}: PageProps) {
     const photo = getPhoto(params.slug);
-
     return <div className="hero min-h-screen px-4 sm:px-6 md:px-8">
     <div className="hero-content flex flex-col md:flex-row m-5">
       <div className={classes.image}>      <Image src={photo.image} className="max-w-sm object-contain" alt={photo.summary} fill />
