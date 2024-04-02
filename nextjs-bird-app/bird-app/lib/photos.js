@@ -9,3 +9,7 @@ export function getPhotos() {
 export function getPhoto(slug) {
     return db.prepare('SELECT * FROM photos WHERE slug=?').get(slug);
 }
+
+export function getRandomBird() {
+    return db.prepare('SELECT * FROM photos WHERE id IN (SELECT id FROM photos ORDER BY RANDOM() LIMIT 1)').get();
+}
