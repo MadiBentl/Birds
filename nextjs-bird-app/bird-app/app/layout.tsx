@@ -19,11 +19,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${lora.variable} ${roboto.variable} text-slate-900`}>
+    <html lang="en" className={`${lora.variable} ${roboto.variable} text-slate-900 bg-yellow-50`}>
       <body className="text-slate-900">
         <Header />
         <Breadcrumbs />
-          <main className="bg-yellow-50">{children}</main>
+          <main>{children}</main>
         <Footer />
         </body>
     </html>
