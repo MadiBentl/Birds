@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function BirdPhotoPage({...photo}) {
     return <div className="hero min-h-screen px-4 sm:px-6 md:px-8">
-    <div className="hero-content min-h-[400px] grid md:grid-cols-2 m-5">
+    <div className="hero-content min-h-[400px] grid md:grid-cols-2 m-5 gap-4">
         <div className="min-h-[400px] relative">
             <Image src={photo.image} className="max-w-lg object-contain" alt={photo.summary} fill />
     </div>

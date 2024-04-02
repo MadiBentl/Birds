@@ -7,7 +7,7 @@ export default function Header() {
         <div><Link href="/" className="flex items-center heading-font"><div className="relative h-20 w-20 "><Image className="logo" src='/logo.svg' alt="Bird App" fill /></div>Bird App</Link></div>
         <ul className="flex items-center">
             <li className="m-2.5"><Link className="hover:underline heading-font" href="/photos">Bird Photos</Link></li>
-            <li className="m-2.5"><Link className="hover:underline heading-font" href="/photo/random">Random Bird Photo</Link></li>
+            <li className="m-2.5"><Link className="hover:underline heading-font" href="/photos/random">Random Bird Photo</Link></li>
         </ul>
         </div>
     </div>
