@@ -8,7 +8,7 @@ export default function Header() {
         <ul className="flex items-center">
             <li className="m-2.5"><Link className="hover:underline heading-font" href="/photos">Bird Photos</Link></li>
             <li className="m-2.5"><Link className="hover:underline heading-font" href="/photo/random">Random Bird Photo</Link></li>
-        </ul><div className="relative">…</div>
+        </ul>
         </div>
     </div>
 }
